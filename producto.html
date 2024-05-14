@@ -43,7 +43,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/fireba
     await addDoc(collection(db,"producto"),{
         nombre: productform.nombre.value,
         precio: productform.precio.value,
-        codigo: productform.precio.value
+        codigo: productform.codigo.value
     });
     productform.reset();
   });
